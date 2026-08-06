@@ -384,6 +384,32 @@
   border-color: var(--color-ink);
 }
 
+.consent-label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  cursor: pointer;
+}
+
+.consent-label input[type="checkbox"] {
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.1rem;
+  accent-color: var(--color-ink);
+}
+
+.consent-label a {
+  color: var(--color-ink);
+}
+
+.consent-label input[type="checkbox"]:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
 .form-confirmation {
   padding: var(--space-4);
   border-radius: var(--radius);

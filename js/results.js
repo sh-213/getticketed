@@ -95,11 +95,29 @@ const Results = {
         <div style="margin-top: var(--space-6);" class="card">
           <h2>Want this on your phone for test day?</h2>
           <p style="margin: var(--space-2) 0 var(--space-3);">We'll send you your score summary. One email, no spam.</p>
-          <form id="email-capture-form" class="email-capture" novalidate>
+          <form
+            id="email-capture-form"
+            class="email-capture"
+            action="${SITE_CONFIG.mailchimp.formAction}"
+            method="post"
+            target="mailchimp-frame"
+            novalidate
+          >
             <label class="field-label" for="email-input">Email address</label>
-            <input class="field-input" type="email" id="email-input" name="email" autocomplete="email" required>
+            <input class="field-input" type="email" id="email-input" name="EMAIL" autocomplete="email" required>
+
+            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+              <input type="text" name="${SITE_CONFIG.mailchimp.honeypotFieldName}" tabindex="-1" value="">
+            </div>
+
+            <label class="consent-label" for="email-consent">
+              <input type="checkbox" id="email-consent" required>
+              <span>I agree to receive this email and understand I can unsubscribe at any time. See the <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</span>
+            </label>
+
             <button type="submit" class="btn btn-secondary">Send it to me</button>
           </form>
+          <iframe id="mailchimp-frame" name="mailchimp-frame" title="Email signup response" style="display:none;"></iframe>
           <div id="email-confirmation" class="form-confirmation" hidden>
             Sent. Check your inbox for your results.
           </div>
@@ -132,24 +150,48 @@ function wirePassPackCta(container) {
   });
 }
 
+/**
+ * Submits to Mailchimp via a real form POST targeting a hidden iframe,
+ * rather than fetch()/XHR — Mailchimp's list-manage.com endpoint isn't
+ * CORS-enabled for cross-origin AJAX, and there is no backend here to
+ * proxy the request through or to hold an API key safely. This is the
+ * standard no-backend integration pattern: the browser submits the form
+ * for real, the response lands in the hidden iframe instead of
+ * navigating the page away, and we show the confirmation optimistically
+ * once submitted (the iframe's response is cross-origin, so it can't be
+ * read to confirm success/failure — email format and consent are
+ * validated client-side before submitting).
+ */
 function wireEmailForm(container) {
   const form = container.querySelector("#email-capture-form");
   const confirmation = container.querySelector("#email-confirmation");
+  const iframe = container.querySelector("#mailchimp-frame");
+  const emailInput = form.querySelector("#email-input");
+  const consentInput = form.querySelector("#email-consent");
+
+  let submitted = false;
 
   form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const emailInput = form.querySelector("#email-input");
-
     if (!emailInput.checkValidity()) {
+      event.preventDefault();
       emailInput.reportValidity();
       return;
     }
+    if (!consentInput.checkValidity()) {
+      event.preventDefault();
+      consentInput.reportValidity();
+      return;
+    }
 
-    // Stub: no real backend. A real integration would POST to an email
-    // service here. The email address itself is intentionally never
-    // written to localStorage or logged.
+    // Valid — let the browser submit the form for real. The email
+    // address is sent only to Mailchimp, never written to localStorage
+    // or logged.
+    submitted = true;
     trackEvent("email_submitted", {});
+  });
 
+  iframe.addEventListener("load", () => {
+    if (!submitted) return; // ignore the iframe's initial empty load
     form.hidden = true;
     confirmation.hidden = false;
   });

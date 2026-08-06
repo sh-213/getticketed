@@ -10,6 +10,18 @@ const SITE_CONFIG = {
   // in the codebase needs to change.
   gumroadLink: "GUMROAD_LINK_HERE",
 
+  // Mailchimp embedded-form details. Find these in Mailchimp under
+  // Audience > Signup forms > Embedded forms — copy the <form action="...">
+  // URL and the hidden bot-trap input's name attribute (looks like
+  // "b_<u>_<id>"). Both values are meant to be public (they're the same
+  // ones exposed in any embedded Mailchimp form snippet); the real
+  // secret (API key) is never used here since there's no backend to
+  // hold it safely.
+  mailchimp: {
+    formAction: "MAILCHIMP_FORM_ACTION_URL_HERE",
+    honeypotFieldName: "MAILCHIMP_HONEYPOT_FIELD_NAME_HERE",
+  },
+
   certs: {
     cscs: {
       name: "CSCS / CITB Health, Safety & Environment",
