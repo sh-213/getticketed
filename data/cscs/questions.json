@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "PPE-001",
+    "question": "Under the Personal Protective Equipment at Work Regulations 1992, who is responsible for ensuring PPE is provided to employees free of charge?",
+    "options": [
+      "The employer",
+      "The employee, if the job is expected to last less than a day",
+      "The principal contractor, regardless of who directly employs the worker",
+      "Whichever party is named on the site's insurance policy"
+    ],
+    "correctIndex": 0,
+    "topic": "PPE",
+    "explanation": "Employers must provide suitable PPE free of charge to employees wherever risks to health and safety cannot be adequately controlled by other means. Employees must never be charged for PPE that is required for their job.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "PPE-002",
+    "question": "An employer has provided suitable PPE for a task and given training on its use. What is the employee's legal duty?",
+    "options": [
+      "They may stop wearing it once they feel experienced enough not to need it",
+      "They can substitute their own equivalent equipment without checking it is suitable",
+      "They must use it in accordance with the training and instructions given, and report any defects",
+      "They only need to wear it while a supervisor is present"
+    ],
+    "correctIndex": 2,
+    "topic": "PPE",
+    "explanation": "Employees have a legal duty to use PPE correctly, as trained, and to report any loss or damage so it can be replaced. Discomfort or experience should be reported, not used as a reason to stop wearing it.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "PPE-003",
+    "question": "What is an employer's duty regarding PPE that becomes damaged during use?",
+    "options": [
+      "Record it in the accident book but continue using it until the next scheduled audit",
+      "Replace or repair it as soon as reasonably practicable",
+      "Deduct the cost of a replacement from the employee's wages",
+      "Only replace it if the same fault is reported by two different workers"
+    ],
+    "correctIndex": 1,
+    "topic": "PPE",
+    "explanation": "Employers must keep PPE in efficient working order and good repair, which means replacing or repairing damaged equipment promptly rather than waiting for a scheduled check.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "PPE-004",
+    "question": "Site safety footwear is generally selected to protect against which combination of hazards?",
+    "options": [
+      "Slipping on wet surfaces only",
+      "Extreme cold only, not mechanical hazards",
+      "Noise transmitted through the ground",
+      "Impact, penetration, and crushing"
+    ],
+    "correctIndex": 3,
+    "topic": "PPE",
+    "explanation": "Site safety footwear, such as protective-toe boots, is chosen to protect the feet against impact from falling objects, penetration by sharp items underfoot, and crushing hazards.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "PPE-005",
+    "question": "An employee refuses to wear the eye protection provided for a grinding task because they find it uncomfortable. What should happen?",
+    "options": [
+      "The task should stop until suitable eye protection is worn, and the discomfort should be addressed",
+      "The employee can continue without eye protection, since it's ultimately their own choice",
+      "A verbal warning is enough, and work can continue while a better fit is sourced",
+      "Eye protection can be skipped for tasks expected to take less than ten minutes"
+    ],
+    "correctIndex": 0,
+    "topic": "PPE",
+    "explanation": "PPE identified as necessary by a risk assessment must be worn. Discomfort should be resolved, for example by checking the fit or trying an alternative, rather than allowing the worker to go without protection in the meantime.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "PPE-006",
+    "question": "Who is responsible for reporting that PPE has been lost or damaged so it can be replaced?",
+    "options": [
+      "Only the site manager, during scheduled audits",
+      "The PPE supplier, once it is returned for servicing",
+      "The employee who was issued the PPE",
+      "It is automatically flagged once the item reaches its expected service life"
+    ],
+    "correctIndex": 2,
+    "topic": "PPE",
+    "explanation": "Employees have a duty to report loss or defects in their PPE promptly, since an employer can only arrange a replacement for equipment they know needs attention.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "MH-001",
+    "question": "When lifting a load manually, which posture reduces the risk of back injury?",
+    "options": [
+      "Bend at the waist while keeping the legs straight",
+      "Keep the back straight, bend the knees, and keep the load close to the body",
+      "Twist the body from the waist while carrying the load, to save time",
+      "Hold the load away from the body to protect your clothing"
+    ],
+    "correctIndex": 1,
+    "topic": "Manual Handling",
+    "explanation": "Good manual handling technique keeps the load close to the body with a straight back and bent knees, taking the strain through the legs rather than the spine. Twisting while lifting is a common cause of back injury.",
+    "source": "HSE - Manual Handling Operations Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "MH-002",
+    "question": "Before a manual handling task goes ahead, what should be considered first under the hierarchy of controls?",
+    "options": [
+      "Whether the load can be split between more people without changing the method",
+      "How experienced the person doing the lift is",
+      "Whether extra breaks can be scheduled around the task",
+      "Whether the task can be avoided altogether or done using mechanical means"
+    ],
+    "correctIndex": 3,
+    "topic": "Manual Handling",
+    "explanation": "The first step is to avoid hazardous manual handling where reasonably practicable, for example by using a mechanical aid, before moving on to reducing the risk of a handling task that can't be avoided.",
+    "source": "HSE - Manual Handling Operations Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "MH-003",
+    "question": "What does a TILE assessment consider when evaluating a manual handling task?",
+    "options": [
+      "Task, Individual, Load, Environment",
+      "Task, Inspection, Location, Equipment",
+      "Training, Individual, Lifting technique, Exposure",
+      "Task, Instruction, Load limit, Experience"
+    ],
+    "correctIndex": 0,
+    "topic": "Manual Handling",
+    "explanation": "TILE is a widely used framework for assessing manual handling risk, covering the Task itself, the Individual doing it, the Load, and the Environment it's carried out in.",
+    "source": "HSE - manual handling assessment guidance",
+    "verified": true
+  },
+  {
+    "id": "MH-004",
+    "question": "When two people are required to lift a heavy or awkward load together, what is essential for the lift to be safe?",
+    "options": [
+      "One experienced person should direct the lift while the other follows without question",
+      "The load should be lifted in two separate stages, one person at a time",
+      "They should be a reasonable match in height and strength, and communicate clearly throughout",
+      "Only the stronger person needs to have had manual handling training"
+    ],
+    "correctIndex": 2,
+    "topic": "Manual Handling",
+    "explanation": "Team lifting needs clear communication and coordination between both people. A significant mismatch in height or strength can make the load unstable or unevenly loaded.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "MH-005",
+    "question": "Which of these is most likely to increase the risk of injury during a manual handling task?",
+    "options": [
+      "Keeping the load close to the body",
+      "Twisting the spine while holding a load",
+      "Bending the knees before lifting",
+      "Using a trolley for a heavy item"
+    ],
+    "correctIndex": 1,
+    "topic": "Manual Handling",
+    "explanation": "Twisting the spine under load places uneven stress on the back. Turning the feet to change direction, rather than twisting through the back, is the safer technique.",
+    "source": "HSE - Manual Handling Operations Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "MH-006",
+    "question": "What should you do if a load is too heavy or awkward to lift safely on your own?",
+    "options": [
+      "Lift it in short, fast bursts to reduce the total time under load",
+      "Lower your centre of gravity by lifting from a crouched, twisted position",
+      "Ask a passing member of the public to help, since any extra pair of hands reduces the load",
+      "Get help, use a mechanical aid, or break the load into smaller parts"
+    ],
+    "correctIndex": 3,
+    "topic": "Manual Handling",
+    "explanation": "If a load can't be handled safely by one person, the task should be reassessed - by getting assistance, using lifting equipment, or reducing the load - rather than forcing an unsafe lift.",
+    "source": "HSE - Manual Handling Operations Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "WAH-001",
+    "question": "Under the Working at Height Regulations 2005, what must happen before any work at height takes place?",
+    "options": [
+      "A risk assessment must be carried out and the work properly planned, regardless of the height involved",
+      "Planning is only required for work above 2 metres",
+      "A verbal briefing to nearby workers is sufficient on its own",
+      "Planning is only required if scaffolding is being used"
+    ],
+    "correctIndex": 0,
+    "topic": "Working at Height",
+    "explanation": "The regulations require work at height to be properly planned, supervised, and carried out safely, with risks assessed regardless of the height involved. There is no minimum height threshold below which the duty stops applying.",
+    "source": "HSE - Working at Height Regulations 2005",
+    "verified": true
+  },
+  {
+    "id": "WAH-002",
+    "question": "Under the hierarchy set out in the Working at Height Regulations, what should be considered before relying on fall protection equipment?",
+    "options": [
+      "Whether guardrails would work out more expensive than a harness",
+      "Whether the individual worker has a head for heights",
+      "Whether the work can be avoided altogether or done from ground level",
+      "Whether the job can be finished before the weather changes"
+    ],
+    "correctIndex": 2,
+    "topic": "Working at Height",
+    "explanation": "The regulations set a hierarchy: avoid work at height where possible, prevent falls where it can't be avoided, and only then minimise the distance and consequences of a fall - for example with fall arrest equipment.",
+    "source": "HSE - Working at Height Regulations 2005",
+    "verified": true
+  },
+  {
+    "id": "WAH-003",
+    "question": "What is the main hazard of using a ladder that is not secured at the top or footed at the bottom?",
+    "options": [
+      "It voids the ladder's warranty",
+      "It can slip or shift sideways while someone is on it, causing a fall",
+      "It is only a concern on ladders taller than 3 metres",
+      "It only matters when the ladder is being used outdoors"
+    ],
+    "correctIndex": 1,
+    "topic": "Working at Height",
+    "explanation": "An unsecured ladder can slide or move while in use, which is a common cause of falls. Ladders should be secured, footed, or otherwise prevented from moving before anyone climbs them.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "WAH-004",
+    "question": "Who should inspect scaffolding before it is used for the first time on a site?",
+    "options": [
+      "Any worker who has used scaffolding before on another site",
+      "The scaffold manufacturer only, before it is delivered to site",
+      "It only needs inspecting if it is left up for more than a month",
+      "A competent person, who then provides a written record"
+    ],
+    "correctIndex": 3,
+    "topic": "Working at Height",
+    "explanation": "Scaffolding must be inspected by a competent person before it is first used, and at regular intervals afterwards, with the results recorded in writing.",
+    "source": "HSE - Working at Height Regulations 2005",
+    "verified": true
+  },
+  {
+    "id": "WAH-005",
+    "question": "What does a fall arrest system do?",
+    "options": [
+      "Stops or limits a fall that is already happening, reducing injury",
+      "Prevents a fall from starting in the first place, like a guardrail",
+      "Is only required for work carried out above 10 metres",
+      "Removes the need for a risk assessment on that task"
+    ],
+    "correctIndex": 0,
+    "topic": "Working at Height",
+    "explanation": "Fall arrest systems, such as a harness connected to an anchor point, are designed to safely stop a fall that is already in progress - unlike prevention measures such as guardrails, which stop a fall from happening at all.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "WAH-006",
+    "question": "Which of the following is an example of collective fall protection, rather than personal protection?",
+    "options": [
+      "A safety harness worn by one worker",
+      "A lanyard attached to an anchor point",
+      "Guardrails fitted around an open edge",
+      "A hard hat"
+    ],
+    "correctIndex": 2,
+    "topic": "Working at Height",
+    "explanation": "Guardrails protect anyone working in the area without needing individual action, making them collective protection - whereas a harness or lanyard only protects the person wearing it.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-001",
+    "question": "If you discover a fire on a construction site, what should you do first?",
+    "options": [
+      "Try to fight the fire yourself first, whatever its size",
+      "Raise the alarm and alert others",
+      "Finish the task you're doing so it's left in a safe state, then leave",
+      "Call your supervisor's mobile phone before doing anything else"
+    ],
+    "correctIndex": 1,
+    "topic": "Fire Safety",
+    "explanation": "Raising the alarm immediately is the priority so everyone can begin evacuating. Only attempt to tackle a fire yourself if it is safe to do so, using the correct extinguisher, and never let firefighting or a phone call delay raising the alarm.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-002",
+    "question": "In the UK colour-coding system, what colour identifies a water fire extinguisher, suitable for Class A fires involving wood and paper?",
+    "options": [
+      "Cream",
+      "Black",
+      "Blue",
+      "Red"
+    ],
+    "correctIndex": 3,
+    "topic": "Fire Safety",
+    "explanation": "Water extinguishers are identified by a red body or colour band. Other agents use different colours on the same red-bodied extinguishers - for example cream for foam, black for CO2, and blue for dry powder - so the colour band tells you what's inside before you use it.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-003",
+    "question": "Why should a fire extinguisher never be used on a fire involving live electrical equipment, unless it is specifically rated for electrical fires?",
+    "options": [
+      "It could conduct electricity back to the user, causing an electric shock",
+      "It will damage the extinguisher's pressure gauge",
+      "It is only a concern for equipment operating above 415 volts",
+      "It only applies to extinguishers more than 10 years old"
+    ],
+    "correctIndex": 0,
+    "topic": "Fire Safety",
+    "explanation": "Some extinguishing agents, such as water or foam, conduct electricity. Using them on a live electrical fire can create a serious shock hazard for whoever is holding the extinguisher.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-004",
+    "question": "What is the purpose of a fire assembly point on a construction site?",
+    "options": [
+      "A place to store flammable materials safely, away from hot works",
+      "The location where the fire risk assessment is displayed",
+      "A safe location where everyone gathers after evacuation so they can be accounted for",
+      "Wherever the nearest fire extinguisher happens to be kept"
+    ],
+    "correctIndex": 2,
+    "topic": "Fire Safety",
+    "explanation": "The assembly point lets a fire warden or emergency services carry out a headcount to confirm everyone has evacuated safely, and check whether anyone may still be inside.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-005",
+    "question": "Which of these is a fire risk that is particularly common on construction sites?",
+    "options": [
+      "Having fire extinguishers serviced more often than required",
+      "Storage of flammable materials such as fuel or solvents near hot works",
+      "Workers wearing flame-resistant clothing",
+      "Fire risk assessments being reviewed too frequently"
+    ],
+    "correctIndex": 1,
+    "topic": "Fire Safety",
+    "explanation": "Construction sites often involve hot works such as welding or cutting carried out near stored fuel, solvents, or packaging materials, which is a well-recognised fire risk that needs active control.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-006",
+    "question": "Who is typically responsible for ensuring a fire risk assessment is carried out for a site or work activity?",
+    "options": [
+      "Every individual worker, for their own immediate work area only",
+      "The local fire and rescue service, on request",
+      "Whoever on site holds a current first aid certificate",
+      "The person in control of the premises or work activity (the 'responsible person')"
+    ],
+    "correctIndex": 3,
+    "topic": "Fire Safety",
+    "explanation": "Fire safety law places responsibility on a 'responsible person' - typically whoever has control of the premises or the work - to assess and manage fire risk, rather than leaving it to individual workers.",
+    "source": "HSE / Regulatory Reform (Fire Safety) Order 2005",
+    "verified": true
+  },
+  {
+    "id": "COSHH-001",
+    "question": "Which hazardous substance is controlled by its own dedicated set of regulations rather than being covered under COSHH?",
+    "options": [
+      "Asbestos",
+      "Silica dust",
+      "Solvents",
+      "Cement dust"
+    ],
+    "correctIndex": 0,
+    "topic": "Hazardous Substances",
+    "explanation": "Asbestos is excluded from COSHH because it is regulated separately under its own dedicated regulations, reflecting the specific licensing and control regime it requires. Silica dust, solvents, and cement dust are all managed under COSHH.",
+    "source": "HSE - Control of Substances Hazardous to Health Regulations 2002 (COSHH); Control of Asbestos Regulations 2012",
+    "verified": true
+  },
+  {
+    "id": "COSHH-002",
+    "question": "What must an employer do before work with a hazardous substance begins, under COSHH?",
+    "options": [
+      "Nothing extra, provided the substance has been used safely before on other sites",
+      "Notify the HSE in writing before every use of the substance",
+      "Assess the risk and put suitable controls in place",
+      "Wait to see whether any workers report symptoms"
+    ],
+    "correctIndex": 2,
+    "topic": "Hazardous Substances",
+    "explanation": "COSHH requires employers to assess the risks from hazardous substances and put in place measures to prevent or adequately control exposure before the work starts, not after a problem occurs.",
+    "source": "HSE - Control of Substances Hazardous to Health Regulations 2002 (COSHH)",
+    "verified": true
+  },
+  {
+    "id": "COSHH-003",
+    "question": "Silica dust, produced when cutting or grinding materials like concrete or brick, is hazardous mainly because it can cause which type of harm?",
+    "options": [
+      "Temporary skin irritation that clears up within a day",
+      "Serious, potentially irreversible lung disease if inhaled over time",
+      "Mild, short-lived eye watering with no lasting effect",
+      "A metallic taste with no other health impact"
+    ],
+    "correctIndex": 1,
+    "topic": "Hazardous Substances",
+    "explanation": "Fine respirable crystalline silica dust can be inhaled deep into the lungs, and repeated exposure over time can cause serious, irreversible lung disease.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "COSHH-004",
+    "question": "What is the purpose of a safety data sheet for a hazardous substance?",
+    "options": [
+      "It confirms the product's price and preferred supplier",
+      "It serves as proof of purchase for a warranty claim",
+      "It replaces the need for a COSHH risk assessment",
+      "It provides information on the substance's hazards, safe handling, and emergency measures"
+    ],
+    "correctIndex": 3,
+    "topic": "Hazardous Substances",
+    "explanation": "A safety data sheet sets out a substance's hazards, how to store and handle it safely, and what to do in an emergency such as a spill or accidental exposure.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "COSHH-005",
+    "question": "Which control measure is generally preferred over relying on respiratory protective equipment (RPE) alone when working with hazardous dust?",
+    "options": [
+      "Reducing dust at source, for example with water suppression or on-tool extraction",
+      "Increasing the number of workers rotating through the task",
+      "Relying on natural ventilation from open doors and windows",
+      "Shortening tea breaks so the task finishes sooner"
+    ],
+    "correctIndex": 0,
+    "topic": "Hazardous Substances",
+    "explanation": "The hierarchy of control favours eliminating or reducing a hazard at source - such as dust suppression or extraction - over relying solely on RPE, which should be used as a last resort rather than the main control.",
+    "source": "HSE - Control of Substances Hazardous to Health Regulations 2002 (COSHH)",
+    "verified": true
+  },
+  {
+    "id": "COSHH-006",
+    "question": "A hazardous substance is decanted from its original container into a smaller one for use on site. What should happen to the smaller container?",
+    "options": [
+      "It can be left unlabelled as long as it's used within the same shift",
+      "Only containers larger than 5 litres legally need a label",
+      "It should still be clearly labelled with the substance and its hazards",
+      "A label is only needed if the substance is corrosive"
+    ],
+    "correctIndex": 2,
+    "topic": "Hazardous Substances",
+    "explanation": "Any container holding a hazardous substance should be clearly labelled, whatever its size, so that anyone who comes across it later - not just the person who decanted it - understands the risk.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "SIGN-001",
+    "question": "What does a blue circular safety sign indicate?",
+    "options": [
+      "Prohibition - an action that must not be done",
+      "A mandatory action that must be taken",
+      "Warning of a hazard",
+      "Safe condition information, such as the location of equipment"
+    ],
+    "correctIndex": 1,
+    "topic": "Signs & Signals",
+    "explanation": "Blue circular signs are mandatory signs, telling you an action must be carried out - for example, 'ear protection must be worn'. Red circles indicate prohibition, yellow triangles indicate warnings, and green squares/rectangles indicate safe condition or the location of equipment.",
+    "source": "HSE - Health and Safety (Safety Signs and Signals) Regulations 1996",
+    "verified": true
+  },
+  {
+    "id": "SIGN-002",
+    "question": "What shape and colour is a typical warning sign, such as one indicating a risk of falling?",
+    "options": [
+      "Blue circle with a white symbol",
+      "Red triangle with a black border",
+      "Yellow circle with a black border",
+      "Yellow triangle with a black border"
+    ],
+    "correctIndex": 3,
+    "topic": "Signs & Signals",
+    "explanation": "Warning signs are triangular, with a yellow background and black border and symbol, used to alert people to a hazard rather than to instruct or prohibit an action. Neither the shape nor the colour matches a warning sign if either one is changed.",
+    "source": "HSE - Health and Safety (Safety Signs and Signals) Regulations 1996",
+    "verified": true
+  },
+  {
+    "id": "SIGN-003",
+    "question": "What does a red circular sign with a diagonal line through it generally mean?",
+    "options": [
+      "Prohibition - the action or item shown must not be used",
+      "A mandatory action is required",
+      "Warning of a hazard in the area",
+      "Safe condition information"
+    ],
+    "correctIndex": 0,
+    "topic": "Signs & Signals",
+    "explanation": "Red circular signs are prohibition signs, indicating that the action or item shown, such as smoking, is forbidden.",
+    "source": "HSE - Health and Safety (Safety Signs and Signals) Regulations 1996",
+    "verified": true
+  },
+  {
+    "id": "SIGN-004",
+    "question": "A green square or rectangular sign is generally used to indicate what?",
+    "options": [
+      "A hazard warning",
+      "A mandatory instruction",
+      "Safe condition information, such as a first aid point or emergency exit",
+      "A prohibition"
+    ],
+    "correctIndex": 2,
+    "topic": "Signs & Signals",
+    "explanation": "Green signs indicate safe condition information, such as the location of first aid equipment, emergency exits, or escape routes.",
+    "source": "HSE - Health and Safety (Safety Signs and Signals) Regulations 1996",
+    "verified": true
+  },
+  {
+    "id": "SIGN-005",
+    "question": "Standard hand signals on a construction site are most commonly used to direct which type of activity?",
+    "options": [
+      "Directing vehicle banksmen only, never lifting equipment",
+      "Crane or other lifting operations",
+      "Coordinating fire drills",
+      "Confirming PPE has been issued"
+    ],
+    "correctIndex": 1,
+    "topic": "Signs & Signals",
+    "explanation": "Standardised hand signals are used to direct crane and lifting operations, since the operator often cannot see the load clearly or hear verbal instructions over site noise.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "SIGN-006",
+    "question": "Why is it important to use standard hand signals on site rather than inventing your own?",
+    "options": [
+      "It doesn't really matter, as long as your immediate team understands them",
+      "Standard signals are only a legal requirement for tower cranes",
+      "Custom signals are recommended once a team has worked together for over a year",
+      "Standard signals reduce the risk of dangerous misunderstanding between different workers, contractors, or shifts"
+    ],
+    "correctIndex": 3,
+    "topic": "Signs & Signals",
+    "explanation": "Standard signals mean anyone on site, not just your own team, can understand what is being communicated, which reduces the risk of a dangerous misunderstanding during a lifting operation or similar task.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "ACC-001",
+    "question": "Under RIDDOR, which of the following must be reported to the HSE?",
+    "options": [
+      "A specified injury, such as a fracture (other than to fingers, thumbs or toes)",
+      "Any injury requiring a plaster or basic first aid",
+      "A near miss where no one was hurt",
+      "An injury causing less than a day off work"
+    ],
+    "correctIndex": 0,
+    "topic": "Accident Reporting",
+    "explanation": "RIDDOR requires employers to report specified injuries (such as most fractures), deaths, occupational diseases, dangerous occurrences, and injuries causing more than seven days off work. Minor first-aid injuries and short absences generally do not meet the reporting threshold.",
+    "source": "HSE - Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)",
+    "verified": true
+  },
+  {
+    "id": "ACC-002",
+    "question": "What does RIDDOR stand for?",
+    "options": [
+      "Regulation of Industrial Damage and Dangerous Operations Rules",
+      "Reporting of Incidents, Diseases and Delayed Operations Regulations",
+      "Reporting of Injuries, Diseases and Dangerous Occurrences Regulations",
+      "Risk Identification, Diagnosis and Documentation of Reports"
+    ],
+    "correctIndex": 2,
+    "topic": "Accident Reporting",
+    "explanation": "RIDDOR stands for the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations, which set out an employer's legal duty to report certain workplace incidents to the HSE.",
+    "source": "HSE - Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)",
+    "verified": true
+  },
+  {
+    "id": "ACC-003",
+    "question": "Why is it important to report near misses, even though no one was injured?",
+    "options": [
+      "It isn't important, since no one was actually hurt",
+      "Near misses can highlight hazards before they cause a real injury, helping prevent future accidents",
+      "It's only useful for the site's insurance renewal",
+      "It's only required if a member of the public was nearby"
+    ],
+    "correctIndex": 1,
+    "topic": "Accident Reporting",
+    "explanation": "A near miss shows that an accident could easily have happened. Reporting and investigating them helps identify and fix hazards before someone is actually hurt.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "ACC-004",
+    "question": "After a workplace accident, why is it important to record details such as witness accounts while they are still fresh?",
+    "options": [
+      "It isn't necessary, since the accident book covers this automatically",
+      "It's only needed if the injured person intends to claim compensation",
+      "Only details relevant to RIDDOR reporting need to be recorded at all",
+      "Accurate, timely records support a proper investigation and help prevent a similar accident happening again"
+    ],
+    "correctIndex": 3,
+    "topic": "Accident Reporting",
+    "explanation": "Details recorded soon after an incident tend to be more accurate and complete, which supports a proper investigation into the cause and helps prevent a similar accident recurring.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "ACC-005",
+    "question": "Which of these would typically count as a 'specified injury' that must be reported under RIDDOR?",
+    "options": [
+      "Loss of consciousness caused by a head injury or lack of oxygen",
+      "A cut requiring stitches at hospital",
+      "A sprained ankle needing a few days' rest",
+      "A minor burn treated with a dressing on site"
+    ],
+    "correctIndex": 0,
+    "topic": "Accident Reporting",
+    "explanation": "RIDDOR's specified injuries include loss of consciousness caused by a head injury or asphyxia, along with other serious injuries such as most fractures and amputations. A cut needing stitches or a sprain, while not trivial, doesn't on its own meet that threshold.",
+    "source": "HSE - Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)",
+    "verified": true
+  },
+  {
+    "id": "ACC-006",
+    "question": "What is an accident book used for on a construction site?",
+    "options": [
+      "Recording only injuries that are reported to the HSE under RIDDOR",
+      "Logging near misses exclusively, not actual injuries",
+      "Recording details of work-related accidents and injuries, even minor ones",
+      "Recording sickness absence unrelated to work"
+    ],
+    "correctIndex": 2,
+    "topic": "Accident Reporting",
+    "explanation": "An accident book keeps a record of workplace accidents and injuries, including minor ones that may not meet the RIDDOR reporting threshold, which can help spot patterns and answer any future queries.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-001",
+    "question": "What is the purpose of a permit-to-work system?",
+    "options": [
+      "To record which contractor is responsible for a task, for invoicing purposes",
+      "To formally control high-risk activities and confirm safety precautions are in place before work starts",
+      "To replace the need for a task-specific risk assessment",
+      "To give a worker formal permission to work overtime"
+    ],
+    "correctIndex": 1,
+    "topic": "General Site Safety",
+    "explanation": "A permit-to-work is a formal, documented system used to control high-risk work such as hot work or confined space entry, confirming precautions are in place before the work is allowed to begin. It works alongside a risk assessment, not instead of one.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-002",
+    "question": "You notice a colleague using a ladder with a visibly cracked stile. What should you do?",
+    "options": [
+      "Mention it informally next time you see them, with no particular urgency",
+      "Use it briefly yourself first to judge how bad the crack is",
+      "Leave a note on the ladder and let the next person decide",
+      "Stop them, take the ladder out of use, and report it"
+    ],
+    "correctIndex": 3,
+    "topic": "General Site Safety",
+    "explanation": "Damaged equipment must be taken out of use immediately and reported so it can be inspected or replaced. Everyone on site shares responsibility for stopping unsafe use of equipment, not just the person who owns or issued it.",
+    "source": "HSE - Provision and Use of Work Equipment Regulations 1998 (PUWER)",
+    "verified": true
+  },
+  {
+    "id": "GEN-003",
+    "question": "What is the main purpose of a site induction for a new worker?",
+    "options": [
+      "To make sure they understand site-specific hazards, rules, and emergency procedures before starting work",
+      "To confirm they have completed general health and safety training at some point in their career",
+      "To collect emergency contact details for payroll purposes",
+      "To assess whether they are physically strong enough for manual work"
+    ],
+    "correctIndex": 0,
+    "topic": "General Site Safety",
+    "explanation": "A site induction makes sure new workers understand the hazards, rules, and emergency arrangements specific to that site before they start work, since every site is different, whatever training they've had elsewhere.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-004",
+    "question": "What is a risk assessment intended to do?",
+    "options": [
+      "Assign blame in advance in case an accident happens",
+      "Satisfy an annual paperwork requirement with no ongoing use",
+      "Identify hazards, evaluate the risks, and decide what controls are needed to reduce them",
+      "Guarantee that the task can be carried out with zero risk"
+    ],
+    "correctIndex": 2,
+    "topic": "General Site Safety",
+    "explanation": "A risk assessment systematically identifies hazards, judges the level of risk they pose, and decides on reasonably practicable controls to reduce it. It reduces risk but can never guarantee zero accidents.",
+    "source": "HSE - Management of Health and Safety at Work Regulations 1999",
+    "verified": true
+  },
+  {
+    "id": "GEN-005",
+    "question": "Under the Health and Safety at Work etc. Act 1974, employees also have legal duties. Which of these is one of them?",
+    "options": [
+      "To write and formally approve the site's risk assessments",
+      "To take reasonable care of their own health and safety and that of others affected by their actions",
+      "To personally fund any PPE beyond the basic level provided",
+      "To report safety concerns directly to the HSE rather than their employer"
+    ],
+    "correctIndex": 1,
+    "topic": "General Site Safety",
+    "explanation": "The Act places a duty on every employee to take reasonable care for their own health and safety and that of others who may be affected by what they do, and to cooperate with their employer on safety matters.",
+    "source": "HSE - Health and Safety at Work etc. Act 1974",
+    "verified": true
+  },
+  {
+    "id": "GEN-006",
+    "question": "What should you do if you are asked to carry out a task you haven't been trained for and feel unsafe doing?",
+    "options": [
+      "Attempt it carefully, since raising concerns might slow the job down",
+      "Ask a more experienced colleague to quietly do it instead, without reporting anything",
+      "Start the task, then stop partway through if it feels unsafe",
+      "Raise your concern with your supervisor before starting the task"
+    ],
+    "correctIndex": 3,
+    "topic": "General Site Safety",
+    "explanation": "Workers should raise concerns about an unsafe or unfamiliar task with a supervisor before starting, rather than attempting it without the right training and hoping it works out.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-007",
+    "question": "What is the safety purpose of good housekeeping - keeping a site tidy and free of clutter?",
+    "options": [
+      "It reduces trip hazards and helps keep escape routes and walkways clear",
+      "It mainly affects how the site looks during client visits",
+      "It is only required in office areas, not on the working site",
+      "It reduces overall noise levels on site"
+    ],
+    "correctIndex": 0,
+    "topic": "General Site Safety",
+    "explanation": "Poor housekeeping is a common cause of slips, trips, and falls, and cluttered walkways can also block escape routes in an emergency, so keeping a site tidy is a genuine safety control, not just tidiness for its own sake.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-008",
+    "question": "Which of the following best describes a 'safe system of work'?",
+    "options": [
+      "An informal understanding between experienced workers about how a task is usually done",
+      "A checklist completed only after a task has finished",
+      "A formal, documented procedure for carrying out a task safely, based on the risks involved",
+      "A generic company policy that stays the same regardless of the task"
+    ],
+    "correctIndex": 2,
+    "topic": "General Site Safety",
+    "explanation": "A safe system of work is a formal, documented procedure developed from a risk assessment, meant to be reviewed and followed consistently - not just an unwritten habit or a box ticked after the fact.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "PPE-007",
+    "question": "A worker's hard hat has taken a heavy impact but shows no visible cracks. What should happen?",
+    "options": [
+      "Keep using it, since there's no visible damage",
+      "Replace it, since an impact can weaken the shell even without visible cracking",
+      "Only replace it if it fails a simple 'tap test' by ear",
+      "Keep wearing it until a professional inspection can be arranged"
+    ],
+    "correctIndex": 1,
+    "topic": "PPE",
+    "explanation": "A hard hat's protective structure can be compromised by a significant impact even when no cracking is visible to the eye, so the safe approach is to replace it rather than keep using it on the assumption it's still sound.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "PPE-008",
+    "question": "Beyond simply providing PPE, what does the 1992 Regulations require of it?",
+    "options": [
+      "It must be suitable for the risk, properly maintained, and used correctly",
+      "It must always be the most expensive option available",
+      "It must be replaced every six months regardless of condition",
+      "It only needs to fit the average-sized worker on site"
+    ],
+    "correctIndex": 0,
+    "topic": "PPE",
+    "explanation": "The regulations require PPE to be suitable for the specific risk, properly assessed for fit, kept in good repair, and used correctly by trained workers - not just handed out and forgotten about.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "PPE-009",
+    "question": "A worker wears a hard hat and hearing protection together. What must the employer consider?",
+    "options": [
+      "Only the combined cost of purchasing both items",
+      "Whether the combination is compatible and each item still provides adequate protection when worn together",
+      "Which item was issued to the worker first",
+      "Whether the worker personally prefers one item over the other"
+    ],
+    "correctIndex": 1,
+    "topic": "PPE",
+    "explanation": "Where more than one type of PPE is worn at once, the employer must check the items are compatible and that wearing them together doesn't reduce the protection each one is supposed to give.",
+    "source": "HSE - Personal Protective Equipment at Work Regulations 1992",
+    "verified": true
+  },
+  {
+    "id": "MH-007",
+    "question": "What does the 'Environment' part of a TILE manual handling assessment consider?",
+    "options": [
+      "The load's weight and shape",
+      "Features like space, flooring, lighting, and temperature where the task takes place",
+      "The individual's physical capability",
+      "How the task is normally carried out"
+    ],
+    "correctIndex": 1,
+    "topic": "Manual Handling",
+    "explanation": "The Environment element of TILE looks at conditions surrounding the task - such as confined space, uneven or slippery flooring, poor lighting, or extreme temperatures - which can all increase the risk of a handling task.",
+    "source": "HSE - manual handling assessment guidance",
+    "verified": true
+  },
+  {
+    "id": "MH-008",
+    "question": "Manual handling injuries often build up gradually through repeated exposure rather than a single incident. What is this type of injury commonly called?",
+    "options": [
+      "An acute traumatic injury",
+      "A musculoskeletal disorder (MSD)",
+      "An occupational near miss",
+      "A notifiable dangerous occurrence"
+    ],
+    "correctIndex": 1,
+    "topic": "Manual Handling",
+    "explanation": "Musculoskeletal disorders (MSDs) develop over time from repeated or cumulative strain, unlike an acute injury caused by a single event, and they are one of the most common types of work-related ill health.",
+    "source": "HSE - musculoskeletal disorders guidance",
+    "verified": true
+  },
+  {
+    "id": "WAH-007",
+    "question": "What is a key requirement for a mobile elevating work platform (MEWP) operator before they use the equipment?",
+    "options": [
+      "No training is required if the task is expected to be short",
+      "They must be trained and competent to operate that specific type of MEWP",
+      "Only a valid car driving licence is required",
+      "Training is only needed for work above five metres"
+    ],
+    "correctIndex": 1,
+    "topic": "Working at Height",
+    "explanation": "MEWPs vary in controls and handling between types, so an operator must be trained and competent on the specific type of platform they are using, not just experienced with equipment in general.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "WAH-008",
+    "question": "Why are toe boards fitted alongside guardrails on a working platform?",
+    "options": [
+      "To make the platform look tidier",
+      "To stop tools or materials from being kicked or rolling off the edge and falling",
+      "To increase the platform's overall working height",
+      "To provide a seat for workers taking a break"
+    ],
+    "correctIndex": 1,
+    "topic": "Working at Height",
+    "explanation": "Toe boards form part of collective fall protection by preventing tools, offcuts, and other materials from being knocked off the edge of a platform, which protects anyone working or passing underneath.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "WAH-009",
+    "question": "What should be arranged before starting work that relies on a fall-arrest harness, in case a fall happens?",
+    "options": [
+      "Rescue only needs to be considered after a fall has actually happened",
+      "A rescue plan should be in place before the work starts, since a suspended worker can be at risk if left too long",
+      "Rescue is automatically the fire service's responsibility, so no on-site planning is needed",
+      "Rescue plans are only required for work above fifteen metres"
+    ],
+    "correctIndex": 1,
+    "topic": "Working at Height",
+    "explanation": "A worker left hanging in a harness after a fall can be at risk from suspension trauma, so a plan for prompt rescue needs to be in place before the work starts, not worked out after someone has already fallen.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-007",
+    "question": "What is the main purpose of a fire door on a site cabin or welfare unit?",
+    "options": [
+      "To reduce noise transfer between rooms",
+      "To hold back fire and smoke for a period of time, helping protect escape routes",
+      "To keep the unit cooler during summer",
+      "To meet insurance requirements only, with no safety function"
+    ],
+    "correctIndex": 1,
+    "topic": "Fire Safety",
+    "explanation": "Fire doors are built and rated to resist the spread of fire and smoke for a set period, buying time for people to escape and helping keep escape routes usable for longer.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "FIRE-008",
+    "question": "What should happen to escape routes and fire doors during normal working hours on site?",
+    "options": [
+      "They can be temporarily blocked if it makes storage more convenient",
+      "They must be kept clear, and fire doors must not be wedged open",
+      "Only the main site entrance needs to be kept clear",
+      "They only matter once a fire risk assessment has been completed"
+    ],
+    "correctIndex": 1,
+    "topic": "Fire Safety",
+    "explanation": "Escape routes need to stay clear and usable at all times, and wedging open a fire door defeats its purpose by letting fire and smoke spread freely instead of being held back.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "COSHH-007",
+    "question": "What is 'health surveillance' in the context of COSHH?",
+    "options": [
+      "A one-off medical check when someone first joins a company, unrelated to their tasks",
+      "Ongoing monitoring of workers' health where they're exposed to a substance that could cause identifiable disease or harm",
+      "A general fitness test required for all construction workers",
+      "An annual eye test unrelated to hazardous substances"
+    ],
+    "correctIndex": 1,
+    "topic": "Hazardous Substances",
+    "explanation": "COSHH requires health surveillance where exposure to a substance could lead to an identifiable disease or health effect, so that any early signs can be picked up and acted on.",
+    "source": "HSE - Control of Substances Hazardous to Health Regulations 2002 (COSHH)",
+    "verified": true
+  },
+  {
+    "id": "COSHH-008",
+    "question": "Under COSHH, what does 'adequate control' of exposure generally mean?",
+    "options": [
+      "Reducing exposure to the lowest level reasonably practicable, following the hierarchy of controls",
+      "Making sure exposure never exceeds what a worker personally feels comfortable with",
+      "Providing RPE to every worker regardless of the task",
+      "Ensuring the substance is stored in a locked cupboard, with no other measures needed"
+    ],
+    "correctIndex": 0,
+    "topic": "Hazardous Substances",
+    "explanation": "Adequate control means applying the hierarchy of controls to reduce exposure as far as reasonably practicable, rather than relying on a single measure like storage or PPE alone.",
+    "source": "HSE - Control of Substances Hazardous to Health Regulations 2002 (COSHH)",
+    "verified": true
+  },
+  {
+    "id": "COSHH-009",
+    "question": "A COSHH risk assessment for a task should be reviewed in which of these situations?",
+    "options": [
+      "Only every five years, regardless of any changes",
+      "Never, once it has been signed off",
+      "When there is reason to believe it is no longer valid, such as a change in the task, substance, or control measures",
+      "Only if a worker specifically requests it"
+    ],
+    "correctIndex": 2,
+    "topic": "Hazardous Substances",
+    "explanation": "A risk assessment should be reviewed whenever there's reason to think it's no longer valid - for example if the task, substance, or controls change - not left unreviewed indefinitely.",
+    "source": "HSE - Management of Health and Safety at Work Regulations 1999",
+    "verified": true
+  },
+  {
+    "id": "SIGN-007",
+    "question": "What is an 'acoustic signal' in a health and safety context, and where might it be used on a construction site?",
+    "options": [
+      "A sound-based warning signal, such as a reversing alarm on plant or vehicles",
+      "A written notice pinned to a noticeboard",
+      "A signal only used during fire drills, never in everyday operations",
+      "A hand signal used specifically for cranes"
+    ],
+    "correctIndex": 0,
+    "topic": "Signs & Signals",
+    "explanation": "Acoustic signals are audible warnings, such as reversing alarms on vehicles and plant, and are covered alongside visual signs and hand signals as one of the recognised ways of communicating a hazard.",
+    "source": "HSE - Health and Safety (Safety Signs and Signals) Regulations 1996",
+    "verified": true
+  },
+  {
+    "id": "SIGN-008",
+    "question": "Illuminated signs are sometimes used instead of, or alongside, standard safety signs. When are they particularly useful?",
+    "options": [
+      "In low-light conditions or where visibility is otherwise poor",
+      "Only for advertising on site hoardings",
+      "Only in site offices, never on the working site itself",
+      "Only for signs that have no standard non-illuminated version"
+    ],
+    "correctIndex": 0,
+    "topic": "Signs & Signals",
+    "explanation": "Illuminated signs help a warning stay visible in conditions where an ordinary printed sign might be hard to see, such as low light, rather than replacing standard signs everywhere.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "ACC-007",
+    "question": "Under RIDDOR, who has the legal duty to report a reportable incident to the HSE?",
+    "options": [
+      "The injured person themselves, in all cases",
+      "The 'responsible person' - typically the employer or person in control of the work",
+      "Any witness to the incident, regardless of their role",
+      "No one needs to report it, as the HSE finds out automatically"
+    ],
+    "correctIndex": 1,
+    "topic": "Accident Reporting",
+    "explanation": "RIDDOR places the reporting duty on the 'responsible person', typically the employer or the person in control of the work, rather than leaving it to the injured worker or a witness.",
+    "source": "HSE - Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)",
+    "verified": true
+  },
+  {
+    "id": "ACC-008",
+    "question": "What is a 'dangerous occurrence' under RIDDOR?",
+    "options": [
+      "Any incident that startles a worker but causes no damage",
+      "A specified near-miss event with the potential to cause serious harm, which must be reported even though no one was injured",
+      "A minor equipment fault noted during a routine check",
+      "Any incident involving a member of the public, however small"
+    ],
+    "correctIndex": 1,
+    "topic": "Accident Reporting",
+    "explanation": "Dangerous occurrences are a defined category of specified near-miss events - such as a scaffold collapse - that must be reported under RIDDOR because of their potential to cause serious harm, even when no one is actually hurt.",
+    "source": "HSE - Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)",
+    "verified": true
+  },
+  {
+    "id": "GEN-009",
+    "question": "What is the purpose of a 'toolbox talk' on a construction site?",
+    "options": [
+      "A short, focused briefing on a specific safety topic relevant to the current work",
+      "A formal disciplinary meeting about tool misuse",
+      "An annual appraisal of a worker's tool maintenance",
+      "A meeting only held after an accident has occurred"
+    ],
+    "correctIndex": 0,
+    "topic": "General Site Safety",
+    "explanation": "A toolbox talk is a short, informal briefing that covers a specific safety topic relevant to the work in hand, used regularly to keep safety awareness current rather than only after something has gone wrong.",
+    "source": "",
+    "verified": false
+  },
+  {
+    "id": "GEN-010",
+    "question": "Who is generally responsible for coordinating health and safety across subcontractors on a construction site?",
+    "options": [
+      "Subcontractors are entirely self-regulating, and the principal contractor has no role",
+      "The principal contractor has a duty to plan, manage, and coordinate health and safety across the site, including subcontractors",
+      "Only the client is responsible, not any contractor",
+      "Each subcontractor's insurer is responsible"
+    ],
+    "correctIndex": 1,
+    "topic": "General Site Safety",
+    "explanation": "On projects with more than one contractor, the principal contractor has specific duties to plan, manage, and coordinate health and safety for the whole site, rather than each subcontractor operating in isolation.",
+    "source": "HSE - Construction (Design and Management) Regulations 2015 (CDM 2015)",
+    "verified": true
+  },
+  {
+    "id": "GEN-011",
+    "question": "You spot a hazard you can fix immediately and safely yourself, such as a dropped nail on a walkway. What should you do?",
+    "options": [
+      "Ignore it, since only supervisors should touch site hazards",
+      "Deal with it if it's safe and within your ability, and still mention it if it points to a bigger issue",
+      "Report it and wait for a formal risk assessment before touching it",
+      "Take a photo first, then leave it for someone else to deal with"
+    ],
+    "correctIndex": 1,
+    "topic": "General Site Safety",
+    "explanation": "Small, safe-to-fix hazards can reasonably be dealt with on the spot, but if something like a recurring dropped nail points to a bigger issue - such as a damaged pallet - it's still worth flagging so the underlying cause gets addressed.",
+    "source": "",
+    "verified": false
+  }
+]

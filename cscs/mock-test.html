@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free CSCS Mock Test — 50 Questions | Get Ticketed</title>
+<meta name="description" content="Take the free 50-question CSCS/CITB Health, Safety & Environment mock test. One question at a time, instant feedback, topic breakdown at the end.">
+<link rel="canonical" href="/cscs/mock-test.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="/" class="brand" data-brand-name>Get Ticketed</a>
+    <nav aria-label="Primary">
+      <a href="/" class="btn btn-secondary">Home</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+    <h1 class="sr-only">Free CSCS Mock Test</h1>
+    <div id="quiz-live" class="sr-only" aria-live="polite"></div>
+  </div>
+
+  <div id="loading-view" class="state-message container">
+    <p>Loading questions&hellip;</p>
+  </div>
+
+  <div id="error-view" class="state-message container" hidden>
+    <h2>Couldn't load the test</h2>
+    <p id="error-message">Something went wrong loading the questions.</p>
+    <button type="button" id="retry-btn" class="btn btn-primary">Try again</button>
+  </div>
+
+  <div id="quiz-view" class="container" hidden>
+    <div class="progress">
+      <div class="progress__track">
+        <div class="progress__fill" id="progress-fill" style="width: 0%;"></div>
+      </div>
+      <p class="progress__label" id="progress-label">Question 1 of 10</p>
+    </div>
+
+    <div class="card">
+      <span class="pill question-card__topic" id="question-topic">Topic</span>
+      <h2 class="question-card__text" id="question-text" tabindex="-1">Question text</h2>
+      <div class="options" id="options-list" role="group" aria-label="Answer options"></div>
+
+      <div class="feedback" id="feedback-panel" hidden>
+        <h3 class="feedback__heading" id="feedback-heading"></h3>
+        <p id="feedback-explanation"></p>
+        <span class="feedback__source" id="feedback-source" hidden></span>
+      </div>
+    </div>
+
+    <p style="margin-top: var(--space-5);">
+      <button type="button" id="next-btn" class="btn btn-primary btn-block" hidden>Next Question</button>
+    </p>
+  </div>
+
+  <div id="results-view" class="container" hidden></div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="disclaimer" data-disclaimer>This is an independent revision resource. It is not affiliated with, endorsed by, or connected to CITB or CSCS.</p>
+    <p>&copy; <span data-current-year>2026</span> <span data-brand-name>Get Ticketed</span></p>
+  </div>
+</footer>
+
+<script src="/js/config.js"></script>
+<script src="/js/site.js"></script>
+<script src="/js/analytics.js"></script>
+<script src="/js/storage.js"></script>
+<script src="/js/question-bank.js"></script>
+<script src="/js/scoring.js"></script>
+<script src="/js/results.js"></script>
+<script src="/js/quiz.js"></script>
+</body>
+</html>
