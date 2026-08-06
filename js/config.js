@@ -10,16 +10,15 @@ const SITE_CONFIG = {
   // in the codebase needs to change.
   gumroadLink: "GUMROAD_LINK_HERE",
 
-  // Mailchimp embedded-form details. Find these in Mailchimp under
-  // Audience > Signup forms > Embedded forms — copy the <form action="...">
-  // URL and the hidden bot-trap input's name attribute (looks like
-  // "b_<u>_<id>"). Both values are meant to be public (they're the same
-  // ones exposed in any embedded Mailchimp form snippet); the real
-  // secret (API key) is never used here since there's no backend to
-  // hold it safely.
-  mailchimp: {
-    formAction: "MAILCHIMP_FORM_ACTION_URL_HERE",
-    honeypotFieldName: "MAILCHIMP_HONEYPOT_FIELD_NAME_HERE",
+  // Brevo (free plan: unlimited contacts, 300 emails/day) embedded-form
+  // action URL. Find it in Brevo under Contacts > Forms > create or open
+  // a form > Embed > HTML code — copy the <form action="..."> URL, it
+  // looks like "https://XXXXXXXX.sibforms.com/serve/MUIXXXXXXX...".
+  // This value is meant to be public (it's the same one exposed in any
+  // embedded Brevo form snippet); the real secret (API key) is never
+  // used here since there's no backend to hold it safely.
+  brevo: {
+    formAction: "BREVO_FORM_ACTION_URL_HERE",
   },
 
   certs: {

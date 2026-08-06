@@ -98,26 +98,28 @@ const Results = {
           <form
             id="email-capture-form"
             class="email-capture"
-            action="${SITE_CONFIG.mailchimp.formAction}"
+            action="${SITE_CONFIG.brevo.formAction}"
             method="post"
-            target="mailchimp-frame"
+            target="email-signup-frame"
             novalidate
           >
             <label class="field-label" for="email-input">Email address</label>
             <input class="field-input" type="email" id="email-input" name="EMAIL" autocomplete="email" required>
 
+            <input type="hidden" name="locale" value="en">
+
             <div aria-hidden="true" style="position: absolute; left: -5000px;">
-              <input type="text" name="${SITE_CONFIG.mailchimp.honeypotFieldName}" tabindex="-1" value="">
+              <input type="text" name="email_address_check" tabindex="-1" value="">
             </div>
 
             <label class="consent-label" for="email-consent">
-              <input type="checkbox" id="email-consent" required>
+              <input type="checkbox" id="email-consent" name="OPT_IN" required>
               <span>I agree to receive this email and understand I can unsubscribe at any time. See the <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</span>
             </label>
 
             <button type="submit" class="btn btn-secondary">Send it to me</button>
           </form>
-          <iframe id="mailchimp-frame" name="mailchimp-frame" title="Email signup response" style="display:none;"></iframe>
+          <iframe id="email-signup-frame" name="email-signup-frame" title="Email signup response" style="display:none;"></iframe>
           <div id="email-confirmation" class="form-confirmation" hidden>
             Sent. Check your inbox for your results.
           </div>
@@ -151,8 +153,8 @@ function wirePassPackCta(container) {
 }
 
 /**
- * Submits to Mailchimp via a real form POST targeting a hidden iframe,
- * rather than fetch()/XHR — Mailchimp's list-manage.com endpoint isn't
+ * Submits to Brevo via a real form POST targeting a hidden iframe,
+ * rather than fetch()/XHR — Brevo's sibforms.com endpoint isn't
  * CORS-enabled for cross-origin AJAX, and there is no backend here to
  * proxy the request through or to hold an API key safely. This is the
  * standard no-backend integration pattern: the browser submits the form
@@ -165,7 +167,7 @@ function wirePassPackCta(container) {
 function wireEmailForm(container) {
   const form = container.querySelector("#email-capture-form");
   const confirmation = container.querySelector("#email-confirmation");
-  const iframe = container.querySelector("#mailchimp-frame");
+  const iframe = container.querySelector("#email-signup-frame");
   const emailInput = form.querySelector("#email-input");
   const consentInput = form.querySelector("#email-consent");
 
@@ -184,7 +186,7 @@ function wireEmailForm(container) {
     }
 
     // Valid — let the browser submit the form for real. The email
-    // address is sent only to Mailchimp, never written to localStorage
+    // address is sent only to Brevo, never written to localStorage
     // or logged.
     submitted = true;
     trackEvent("email_submitted", {});
