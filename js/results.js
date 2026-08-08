@@ -113,7 +113,7 @@ const Results = {
             </div>
 
             <label class="consent-label" for="email-consent">
-              <input type="checkbox" id="email-consent" name="OPT_IN" required>
+              <input type="checkbox" id="email-consent" required>
               <span>I agree to receive this email and understand I can unsubscribe at any time. See the <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>.</span>
             </label>
 

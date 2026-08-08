@@ -18,7 +18,8 @@ const SITE_CONFIG = {
   // embedded Brevo form snippet); the real secret (API key) is never
   // used here since there's no backend to hold it safely.
   brevo: {
-    formAction: "BREVO_FORM_ACTION_URL_HERE",
+    formAction:
+      "https://40067e93.sibforms.com/serve/MUIFAJxeWqsjjktKsEdRHclscJme6KaKdcLxHzck75yavv9560PHJzpZFMbRvsM5QlDwIoPOsEXWUDIwh7ZiwwdXZPuA-YHwqJlsuiGo8Az08lX7Jo4YDR6V6n7caOwvFHc19dzNtAYb6uVMoQZ88TEw6Lt3HcaS4kAlJzJj1N_n1MNfDdYygEjB937W7tHwwsjWO4nyRgeU6AKK7A==",
   },
 
   certs: {
