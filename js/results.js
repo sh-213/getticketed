@@ -107,6 +107,7 @@ const Results = {
             <input class="field-input" type="email" id="email-input" name="EMAIL" autocomplete="email" required>
 
             <input type="hidden" name="locale" value="en">
+            <input type="hidden" name="SCORE" value="${score.percentage}">
 
             <div aria-hidden="true" style="position: absolute; left: -5000px;">
               <input type="text" name="email_address_check" tabindex="-1" value="">
