@@ -94,7 +94,7 @@ const Results = {
 
         <div style="margin-top: var(--space-6);" class="card">
           <h2>Want this on your phone for test day?</h2>
-          <p style="margin: var(--space-2) 0 var(--space-3);">We'll send you your score summary. One email, no spam.</p>
+          <p style="margin: var(--space-2) 0 var(--space-3);">We'll send you a link back to this test and the pass mark to remember. One email, no spam.</p>
           <form
             id="email-capture-form"
             class="email-capture"
