@@ -8,7 +8,7 @@ const SITE_CONFIG = {
 
   // Drop the real Gumroad checkout URL in here when ready. Nothing else
   // in the codebase needs to change.
-  gumroadLink: "GUMROAD_LINK_HERE",
+  gumroadLink: "https://4091731470513.gumroad.com/l/kfvhb",
 
   // Brevo (free plan: unlimited contacts, 300 emails/day) embedded-form
   // action URL. Find it in Brevo under Contacts > Forms > create or open
